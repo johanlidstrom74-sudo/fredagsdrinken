@@ -177,10 +177,27 @@ const state = { type:"alcohol", flavors:new Set(), servings:1, currentId:null, f
 // --- Xmas season: force jultema from "now" until 31 Dec every year ---
 function isXmasSeason(){
   const now = new Date();
-  const start = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 0,0,0,0); // "nu" (idag)
-  const end = new Date(now.getFullYear(), 11, 31, 23,59,59,999); // 31 dec
+  const y = now.getFullYear();
+  // start: 15 november 00:00, slut: 31 december 23:59:59
+  const start = new Date(y, 10, 15, 0, 0, 0, 0);     // Nov = 10
+  const end   = new Date(y, 11, 31, 23, 59, 59, 999); // Dec = 11
   return now >= start && now <= end;
 }
+(function scheduleMidnightThemeCheck(){
+  function msToNextMidnight(){
+    const now = new Date();
+    const next = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0,0,0,0);
+    return next - now;
+  }
+  setTimeout(() => {
+    updateTheme();           // kör direkt vid midnatt
+    scheduleMidnightThemeCheck(); // planera nästa
+  }, msToNextMidnight());
+})();
+document.addEventListener('visibilitychange', () => {
+  if (!document.hidden) updateTheme(); // om appen återkommer i fokus
+});
+
 
 
 function toast(msg,ms=2000){ const t=$("#toast"); t.textContent=msg; t.style.display="block"; setTimeout(()=>t.style.display="none",ms); }
