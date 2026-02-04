@@ -1,0 +1,3330 @@
+[
+  {
+    "id": "amaretto_sour",
+    "type": "alcohol",
+    "name": "Amaretto Sour",
+    "flavors": [
+      "söt",
+      "syrlig"
+    ],
+    "glass": "Rocks",
+    "ice": "Is",
+    "garnish": "Citron, körsbär",
+    "ingredients": [
+      {
+        "amount_cl": 5,
+        "name": "Amaretto"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Bourbon (valfritt)"
+      },
+      {
+        "amount_cl": 3,
+        "name": "Citronjuice"
+      },
+      {
+        "amount_cl": 1.5,
+        "name": "Sockerlag"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Äggvita/aquafaba"
+      }
+    ],
+    "steps": [
+      "Torrskaka, skaka med is, sila."
+    ],
+    "tips": "Lite bourbon lyfter balansen."
+  },
+  {
+    "id": "americano",
+    "type": "alcohol",
+    "name": "Americano",
+    "flavors": [
+      "bitter",
+      "frisk"
+    ],
+    "glass": "Highball",
+    "ice": "Is",
+    "garnish": "Apelsinskiva",
+    "ingredients": [
+      {
+        "amount_cl": 3,
+        "name": "Campari"
+      },
+      {
+        "amount_cl": 3,
+        "name": "Söt vermouth"
+      },
+      {
+        "amount": "",
+        "name": "Toppa Sodavatten"
+      }
+    ],
+    "steps": [
+      "Bygg över is, toppa soda."
+    ]
+  },
+  {
+    "id": "aperol_spritz",
+    "type": "alcohol",
+    "name": "Aperol Spritz",
+    "flavors": [
+      "bitter",
+      "fruktig"
+    ],
+    "glass": "Vinglas",
+    "ice": "Mycket is",
+    "garnish": "Apelsinskiva",
+    "ingredients": [
+      {
+        "amount_cl": 6,
+        "name": "Prosecco"
+      },
+      {
+        "amount_cl": 4,
+        "name": "Aperol"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Sodavatten"
+      }
+    ],
+    "steps": [
+      "Bygg i vinglas och rör försiktigt."
+    ]
+  },
+  {
+    "id": "aviation",
+    "type": "alcohol",
+    "name": "Aviation",
+    "flavors": [
+      "blommig",
+      "frisk",
+      "syrlig"
+    ],
+    "glass": "Coupette",
+    "ice": "Is i shaker",
+    "garnish": "Körsbär",
+    "ingredients": [
+      {
+        "amount_cl": 5,
+        "name": "Gin"
+      },
+      {
+        "amount_cl": 1.5,
+        "name": "Maraschinolikör"
+      },
+      {
+        "amount_cl": 1.5,
+        "name": "Citronjuice"
+      },
+      {
+        "amount_cl": 0.5,
+        "name": "Violettlikör (valfritt)"
+      }
+    ],
+    "steps": [
+      "Skaka med is, sila."
+    ]
+  },
+  {
+    "id": "bees_knees",
+    "type": "alcohol",
+    "name": "Bee's Knees",
+    "flavors": [
+      "frisk",
+      "blommig"
+    ],
+    "glass": "Coupette",
+    "ice": "Is i shaker",
+    "garnish": "Citronzest",
+    "ingredients": [
+      {
+        "amount_cl": 5,
+        "name": "Gin"
+      },
+      {
+        "amount_cl": 2.5,
+        "name": "Citronjuice"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Honungssirap 2:1"
+      }
+    ],
+    "steps": [
+      "Skaka med is, sila."
+    ]
+  },
+  {
+    "id": "bellini",
+    "type": "alcohol",
+    "name": "Bellini",
+    "flavors": [
+      "fruktig",
+      "söt"
+    ],
+    "glass": "Flöjt",
+    "ice": "—",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "amount_cl": 4,
+        "name": "Persikopuré"
+      },
+      {
+        "amount": "",
+        "name": "Toppa Prosecco"
+      }
+    ],
+    "steps": [
+      "Häll puré i glas, toppa bubbel, rör lätt."
+    ]
+  },
+  {
+    "id": "black_currant_negroni_bianco",
+    "type": "alcohol",
+    "name": "Black Currant Negroni Bianco",
+    "flavors": [
+      "bitter",
+      "fruktig"
+    ],
+    "glass": "Rocks",
+    "ice": "Stor isbit",
+    "garnish": "Svartvinbär och citronzest",
+    "ingredients": [
+      {
+        "amount_cl": 3.5,
+        "name": "Gin"
+      },
+      {
+        "amount_cl": 3.5,
+        "name": "Bianco vermouth"
+      },
+      {
+        "amount_cl": 2.5,
+        "name": "Bärbitter (t.ex. campari med svartvinbärston)"
+      },
+      {
+        "amount_cl": 1,
+        "name": "Svartvinbärssirap"
+      }
+    ],
+    "steps": [
+      "Rör kallt med is i rörglas.",
+      "Sila över stor isbit."
+    ],
+    "tips": "Justera sirap efter önskad fruktighet."
+  },
+  {
+    "id": "blueberry_basil_smash",
+    "type": "alcohol",
+    "name": "Blueberry Basil Smash",
+    "flavors": [
+      "fruktig",
+      "örtig",
+      "syrlig"
+    ],
+    "glass": "Rocks",
+    "ice": "Is/krossad is",
+    "garnish": "Basilikablad, blåbär",
+    "ingredients": [
+      {
+        "amount": "1 näve",
+        "name": "Blåbär (muddlas lätt)"
+      },
+      {
+        "amount": "8 blad",
+        "name": "Basilika"
+      },
+      {
+        "amount_cl": 5,
+        "name": "Gin"
+      },
+      {
+        "amount_cl": 3,
+        "name": "Citronjuice"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Sockerlag"
+      }
+    ],
+    "steps": [
+      "Muddla bär och basilika varsamt.",
+      "Skaka med is, sila grovt över krossad is."
+    ],
+    "tips": "Fintsilning ger blankare drink, men lite bär i glaset är gott."
+  },
+  {
+    "id": "boulevardier",
+    "type": "alcohol",
+    "name": "Boulevardier",
+    "flavors": [
+      "bitter",
+      "kryddig"
+    ],
+    "glass": "Rocks/coupe",
+    "ice": "Stor isbit eller utan",
+    "garnish": "Apelsinzest",
+    "ingredients": [
+      {
+        "amount_cl": 4,
+        "name": "Bourbon/rye"
+      },
+      {
+        "amount_cl": 3,
+        "name": "Campari"
+      },
+      {
+        "amount_cl": 3,
+        "name": "Söt vermouth"
+      }
+    ],
+    "steps": [
+      "Rör kallt med is och sila."
+    ]
+  },
+  {
+    "id": "bramble",
+    "type": "alcohol",
+    "name": "Bramble",
+    "flavors": [
+      "fruktig",
+      "syrlig"
+    ],
+    "glass": "Rocks",
+    "ice": "Krossad is",
+    "garnish": "Björn-/hallon, citron",
+    "ingredients": [
+      {
+        "amount_cl": 4.5,
+        "name": "Gin"
+      },
+      {
+        "amount_cl": 2.5,
+        "name": "Citronjuice"
+      },
+      {
+        "amount_cl": 1.5,
+        "name": "Sockerlag"
+      },
+      {
+        "amount_cl": 1.5,
+        "name": "Crème de mûre (float)"
+      }
+    ],
+    "steps": [
+      "Skaka första tre med is, häll över krossad is, ringla mûre."
+    ]
+  },
+  {
+    "id": "caipirinha",
+    "type": "alcohol",
+    "name": "Caipirinha",
+    "flavors": [
+      "söt",
+      "syrlig"
+    ],
+    "glass": "Rocks",
+    "ice": "Krossad is",
+    "garnish": "Lime",
+    "ingredients": [
+      {
+        "amount": "1 lime i klyftor",
+        "name": "Lime"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Rörsocker/sockerlag"
+      },
+      {
+        "amount_cl": 5,
+        "name": "Cachaça"
+      }
+    ],
+    "steps": [
+      "Muddla lime med socker, fyll krossad is, toppa cachaça."
+    ]
+  },
+  {
+    "id": "caraway_rye_manhattan",
+    "type": "alcohol",
+    "name": "Caraway Rye Manhattan",
+    "flavors": [
+      "kryddig",
+      "bitter"
+    ],
+    "glass": "Coupette",
+    "ice": "Rörd i rörglas",
+    "garnish": "Citronzest",
+    "ingredients": [
+      {
+        "amount_cl": 6,
+        "name": "Rye whiskey"
+      },
+      {
+        "amount_cl": 3,
+        "name": "Söt vermouth"
+      },
+      {
+        "amount": "2 stänk",
+        "name": "Aromatiska bitters"
+      },
+      {
+        "amount": "Stänk",
+        "name": "Kummin-tinktur (mycket lite)"
+      }
+    ],
+    "steps": [
+      "Rör kallt med is.",
+      "Sila och garnera."
+    ],
+    "tips": "Kummin ger nordisk touch – använd sparsamt."
+  },
+  {
+    "id": "citrus_fir_spritz",
+    "type": "alcohol",
+    "name": "Citrus & Fir Spritz",
+    "flavors": [
+      "frisk",
+      "örtig",
+      "blommig"
+    ],
+    "glass": "Vinglas",
+    "ice": "Mycket is",
+    "garnish": "Liten grankvist eller rosmarin",
+    "ingredients": [
+      {
+        "amount_cl": 4,
+        "name": "Aperitif (bitter)"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Citronjuice"
+      },
+      {
+        "amount_cl": 1.5,
+        "name": "Gransirap (eller rosmarinsirap)"
+      },
+      {
+        "amount": "Toppa",
+        "name": "Prosecco och en skvätt soda"
+      }
+    ],
+    "steps": [
+      "Bygg i glas över is.",
+      "Rör försiktigt."
+    ],
+    "tips": "Gransirap kan ersättas med en barr- eller rosmarinsirap."
+  },
+  {
+    "id": "clover_club",
+    "type": "alcohol",
+    "name": "Clover Club",
+    "flavors": [
+      "fruktig",
+      "syrlig"
+    ],
+    "glass": "Coupette",
+    "ice": "Is i shaker",
+    "garnish": "Hallon",
+    "ingredients": [
+      {
+        "amount_cl": 5,
+        "name": "Gin"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Citronjuice"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Hallonsirap"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Äggvita/aquafaba"
+      }
+    ],
+    "steps": [
+      "Torrskaka, skaka med is, sila."
+    ]
+  },
+  {
+    "id": "cold_brew_tonic_flip",
+    "type": "alcohol",
+    "name": "Cold Brew Tonic Flip",
+    "flavors": [
+      "bitter",
+      "krämig"
+    ],
+    "glass": "Coupette",
+    "ice": "Is i shaker",
+    "garnish": "Kakaonibs",
+    "ingredients": [
+      {
+        "amount_cl": 3.5,
+        "name": "Mörk rom eller cognac"
+      },
+      {
+        "amount_cl": 3,
+        "name": "Kallbryggt kaffe"
+      },
+      {
+        "amount_cl": 1.5,
+        "name": "Sockerlag"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Äggula (eller 2 cl grädde som alternativ)"
+      },
+      {
+        "amount": "Stänk",
+        "name": "Tonicreduktion (koncentrerad)"
+      }
+    ],
+    "steps": [
+      "Skaka allt med is.",
+      "Sila fint och garnera."
+    ],
+    "tips": "Tonicreduktion: sjud tonic tills hälften återstår, kyl."
+  },
+  {
+    "id": "cosmopolitan",
+    "type": "alcohol",
+    "name": "Cosmopolitan",
+    "flavors": [
+      "frisk",
+      "fruktig",
+      "syrlig"
+    ],
+    "glass": "Coupette",
+    "ice": "Is i shaker",
+    "garnish": "Apelsinzest eller lime",
+    "ingredients": [
+      {
+        "amount_cl": 4,
+        "name": "Citronvodka"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Triple sec"
+      },
+      {
+        "amount_cl": 3,
+        "name": "Tranbärsjuice"
+      },
+      {
+        "amount_cl": 1.5,
+        "name": "Limejuice"
+      }
+    ],
+    "steps": [
+      "Skaka med is och sila till kylt glas."
+    ]
+  },
+  {
+    "id": "daiquiri_classic",
+    "type": "alcohol",
+    "name": "Daiquiri (Classic)",
+    "flavors": [
+      "syrlig",
+      "frisk"
+    ],
+    "glass": "Coupette",
+    "ice": "Is i shaker",
+    "garnish": "Limeskiva",
+    "ingredients": [
+      {
+        "amount_cl": 5,
+        "name": "Ljus rom"
+      },
+      {
+        "amount_cl": 3,
+        "name": "Limejuice"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Sockerlag 1:1"
+      }
+    ],
+    "steps": [
+      "Skaka hårt med is.",
+      "Sila till kylt glas."
+    ]
+  },
+  {
+    "id": "dark_stormy",
+    "type": "alcohol",
+    "name": "Dark 'n' Stormy",
+    "flavors": [
+      "kryddig",
+      "frisk"
+    ],
+    "glass": "Highball",
+    "ice": "Mycket is",
+    "garnish": "Lime",
+    "ingredients": [
+      {
+        "amount_cl": 5,
+        "name": "Mörk rom"
+      },
+      {
+        "amount": "",
+        "name": "Toppa Ginger beer"
+      },
+      {
+        "amount_cl": 1,
+        "name": "Limejuice"
+      }
+    ],
+    "steps": [
+      "Bygg över is, flyt rom över, rör."
+    ]
+  },
+  {
+    "id": "espresso_martini",
+    "type": "alcohol",
+    "name": "Espresso Martini",
+    "flavors": [
+      "söt",
+      "bitter"
+    ],
+    "glass": "Coupette",
+    "ice": "Is i shaker",
+    "garnish": "Kaffebönor",
+    "ingredients": [
+      {
+        "amount_cl": 4,
+        "name": "Vodka"
+      },
+      {
+        "amount_cl": 3,
+        "name": "Kallt espresso"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Kaffelikör"
+      },
+      {
+        "amount_cl": 1,
+        "name": "Sockerlag"
+      }
+    ],
+    "steps": [
+      "Skaka hårt med is, sila."
+    ]
+  },
+  {
+    "id": "french75",
+    "type": "alcohol",
+    "name": "French 75",
+    "flavors": [
+      "frisk",
+      "syrlig"
+    ],
+    "glass": "Flöjt",
+    "ice": "Is i shaker",
+    "garnish": "Citronzest",
+    "ingredients": [
+      {
+        "amount_cl": 3,
+        "name": "Gin"
+      },
+      {
+        "amount_cl": 1.5,
+        "name": "Citronjuice"
+      },
+      {
+        "amount_cl": 1.5,
+        "name": "Sockerlag"
+      },
+      {
+        "amount": "",
+        "name": "Toppa Champagne"
+      }
+    ],
+    "steps": [
+      "Skaka lätt, sila och toppa bubbel."
+    ]
+  },
+  {
+    "id": "french_martini",
+    "type": "alcohol",
+    "name": "French Martini",
+    "flavors": [
+      "fruktig",
+      "söt"
+    ],
+    "glass": "Coupette",
+    "ice": "Is i shaker",
+    "garnish": "Hallon",
+    "ingredients": [
+      {
+        "amount_cl": 4,
+        "name": "Vodka"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Chambord (svartvinbär/hallonlikör)"
+      },
+      {
+        "amount_cl": 4,
+        "name": "Ananasjuice"
+      }
+    ],
+    "steps": [
+      "Skaka kallt, sila till kylt glas."
+    ]
+  },
+  {
+    "id": "gimlet",
+    "type": "alcohol",
+    "name": "Gimlet",
+    "flavors": [
+      "syrlig",
+      "frisk"
+    ],
+    "glass": "Coupette",
+    "ice": "Is i shaker",
+    "garnish": "Limeskiva",
+    "ingredients": [
+      {
+        "amount_cl": 6,
+        "name": "Gin"
+      },
+      {
+        "amount_cl": 3,
+        "name": "Limejuice"
+      },
+      {
+        "amount_cl": 1,
+        "name": "Sockerlag 1:1"
+      }
+    ],
+    "steps": [
+      "Skaka med is, sila."
+    ]
+  },
+  {
+    "id": "gin_tonic",
+    "type": "alcohol",
+    "name": "Gin & Tonic",
+    "flavors": [
+      "bitter",
+      "frisk",
+      "örtig"
+    ],
+    "glass": "Highball",
+    "ice": "Mycket is",
+    "garnish": "Lime eller gurka",
+    "ingredients": [
+      {
+        "amount_cl": 5,
+        "name": "Gin"
+      },
+      {
+        "amount": "",
+        "name": "Toppa Tonic"
+      }
+    ],
+    "steps": [
+      "Bygg i glas över mycket is."
+    ]
+  },
+  {
+    "id": "gin_basil_smash",
+    "type": "alcohol",
+    "name": "Gin Basil Smash",
+    "flavors": [
+      "örtig",
+      "frisk",
+      "syrlig"
+    ],
+    "glass": "Rocks",
+    "ice": "Is",
+    "garnish": "Basilikablad",
+    "ingredients": [
+      {
+        "amount": "10 blad",
+        "name": "Basilika"
+      },
+      {
+        "amount_cl": 5,
+        "name": "Gin"
+      },
+      {
+        "amount_cl": 3,
+        "name": "Citronjuice"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Sockerlag"
+      }
+    ],
+    "steps": [
+      "Muddla basilika lätt, skaka med is, sila fint."
+    ]
+  },
+  {
+    "id": "glogg_sour",
+    "type": "alcohol",
+    "name": "Glögg Sour",
+    "flavors": [
+      "jul",
+      "syrlig",
+      "kryddig"
+    ],
+    "glass": "Coupette",
+    "ice": "Is i shaker",
+    "garnish": "Riven muskot, apelsinzest",
+    "ingredients": [
+      {
+        "amount_cl": 4,
+        "name": "Glögg (stark) eller glögglikör"
+      },
+      {
+        "amount_cl": 3,
+        "name": "Citronjuice"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Sockerlag 1:1"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Äggvita/aquafaba"
+      }
+    ],
+    "steps": [
+      "Torrskaka alla ingredienser.",
+      "Skaka med is och sila i kylt glas."
+    ],
+    "tips": "Lite angostura på skummet blir snyggt."
+  },
+  {
+    "id": "godfather",
+    "type": "alcohol",
+    "name": "Godfather",
+    "flavors": [
+      "söt",
+      "kryddig"
+    ],
+    "glass": "Rocks",
+    "ice": "Stor isbit",
+    "garnish": "Apelsinzest",
+    "ingredients": [
+      {
+        "amount_cl": 4.5,
+        "name": "Scotch"
+      },
+      {
+        "amount_cl": 1.5,
+        "name": "Amaretto"
+      }
+    ],
+    "steps": [
+      "Bygg/rör i glas över stor isbit."
+    ]
+  },
+  {
+    "id": "godmother",
+    "type": "alcohol",
+    "name": "Godmother",
+    "flavors": [
+      "söt"
+    ],
+    "glass": "Rocks",
+    "ice": "Is",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "amount_cl": 4.5,
+        "name": "Vodka"
+      },
+      {
+        "amount_cl": 1.5,
+        "name": "Amaretto"
+      }
+    ],
+    "steps": [
+      "Bygg i glas över is, rör."
+    ]
+  },
+  {
+    "id": "cloudberry_french75",
+    "type": "alcohol",
+    "name": "Hjortron 75",
+    "flavors": [
+      "fruktig",
+      "frisk",
+      "blommig"
+    ],
+    "glass": "Flöjt",
+    "ice": "—",
+    "garnish": "Hjortron på tandpetare",
+    "ingredients": [
+      {
+        "amount_cl": 3,
+        "name": "Gin"
+      },
+      {
+        "amount_cl": 1.5,
+        "name": "Citronjuice"
+      },
+      {
+        "amount_cl": 1.5,
+        "name": "Hjortronsirap"
+      },
+      {
+        "amount": "Toppa",
+        "name": "Champagne eller torr cava"
+      }
+    ],
+    "steps": [
+      "Skaka de tre första med is.",
+      "Sila i flöjt och toppa bubbel."
+    ],
+    "tips": "Hjortron + citron kräver balans – börja med måtten ovan."
+  },
+  {
+    "id": "hot_toddy",
+    "type": "alcohol",
+    "name": "Hot Toddy",
+    "flavors": [
+      "kryddig",
+      "frisk"
+    ],
+    "glass": "Mugg",
+    "ice": "—",
+    "garnish": "Citron, kanel",
+    "ingredients": [
+      {
+        "amount_cl": 5,
+        "name": "Whiskey"
+      },
+      {
+        "amount_cl": 12,
+        "name": "Hetvatten"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Honung"
+      },
+      {
+        "amount_cl": 1,
+        "name": "Citronjuice"
+      }
+    ],
+    "steps": [
+      "Bygg i varm mugg, rör."
+    ]
+  },
+  {
+    "id": "hugo_spritz",
+    "type": "alcohol",
+    "name": "Hugo Spritz",
+    "flavors": [
+      "frisk",
+      "blommig"
+    ],
+    "glass": "Vinglas",
+    "ice": "Mycket is",
+    "garnish": "Mynta, lime",
+    "ingredients": [
+      {
+        "amount_cl": 6,
+        "name": "Prosecco"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Fläderblomslikör"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Soda"
+      }
+    ],
+    "steps": [
+      "Bygg i vinglas, rör lätt."
+    ]
+  },
+  {
+    "id": "irish_coffee",
+    "type": "alcohol",
+    "name": "Irish Coffee",
+    "flavors": [
+      "söt",
+      "kryddig"
+    ],
+    "glass": "Värmetålig mugg",
+    "ice": "—",
+    "garnish": "Lättvispad grädde",
+    "ingredients": [
+      {
+        "amount_cl": 4,
+        "name": "Irländsk whiskey"
+      },
+      {
+        "amount_cl": 8,
+        "name": "Varmt kaffe"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Demerarasirap"
+      }
+    ],
+    "steps": [
+      "Värm glas, rör ihop whiskey, kaffe, sirap. Toppa försiktigt med grädde."
+    ]
+  },
+  {
+    "id": "kir_royale",
+    "type": "alcohol",
+    "name": "Kir Royale",
+    "flavors": [
+      "fruktig",
+      "söt"
+    ],
+    "glass": "Flöjt",
+    "ice": "—",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "amount_cl": 1.5,
+        "name": "Crème de cassis"
+      },
+      {
+        "amount": "",
+        "name": "Toppa Champagne"
+      }
+    ],
+    "steps": [
+      "Häll likör i flöjt, toppa bubbel."
+    ]
+  },
+  {
+    "id": "last_word",
+    "type": "alcohol",
+    "name": "Last Word",
+    "flavors": [
+      "örtig",
+      "syrlig"
+    ],
+    "glass": "Coupette",
+    "ice": "—",
+    "garnish": "Körsbär",
+    "ingredients": [
+      {
+        "amount_cl": 2.5,
+        "name": "Gin"
+      },
+      {
+        "amount_cl": 2.5,
+        "name": "Grön Chartreuse"
+      },
+      {
+        "amount_cl": 2.5,
+        "name": "Maraschinolikör"
+      },
+      {
+        "amount_cl": 2.5,
+        "name": "Limejuice"
+      }
+    ],
+    "steps": [
+      "Skaka med is, sila."
+    ]
+  },
+  {
+    "id": "lingon_collins",
+    "type": "alcohol",
+    "name": "Lingon Collins",
+    "flavors": [
+      "jul",
+      "frisk",
+      "syrlig"
+    ],
+    "glass": "Highball",
+    "ice": "Mycket is",
+    "garnish": "Frysta lingon, citron",
+    "ingredients": [
+      {
+        "amount_cl": 5,
+        "name": "Gin"
+      },
+      {
+        "amount_cl": 3,
+        "name": "Citronjuice"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Lingonsirap"
+      },
+      {
+        "amount": "",
+        "name": "Toppa Sodavatten"
+      }
+    ],
+    "steps": [
+      "Skaka gin, citron och sirap lätt med is.",
+      "Sila över is och toppa med soda."
+    ],
+    "tips": "Sirap: 2 dl lingon + 2 dl socker + 2 dl vatten, sjud och sila."
+  },
+  {
+    "id": "long_island",
+    "type": "alcohol",
+    "name": "Long Island Iced Tea",
+    "flavors": [
+      "frisk",
+      "söt"
+    ],
+    "glass": "Highball",
+    "ice": "Mycket is",
+    "garnish": "Citronklyfta",
+    "ingredients": [
+      {
+        "amount_cl": 2,
+        "name": "Vodka"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Gin"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Ljus rom"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Tequila blanco"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Triple sec"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Citronjuice"
+      },
+      {
+        "amount": "",
+        "name": "Toppa Cola"
+      }
+    ],
+    "steps": [
+      "Bygg över is, rör."
+    ]
+  },
+  {
+    "id": "mai_tai",
+    "type": "alcohol",
+    "name": "Mai Tai",
+    "flavors": [
+      "fruktig",
+      "söt"
+    ],
+    "glass": "Tiki/rocks",
+    "ice": "Krossad is",
+    "garnish": "Mynta, lime, ananas",
+    "ingredients": [
+      {
+        "amount_cl": 4,
+        "name": "Ljus rom"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Mörk rom"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Triple sec/Curacao"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Limejuice"
+      },
+      {
+        "amount_cl": 1,
+        "name": "Orgeat"
+      }
+    ],
+    "steps": [
+      "Skaka lätt, häll över krossad is."
+    ]
+  },
+  {
+    "id": "manhattan",
+    "type": "alcohol",
+    "name": "Manhattan",
+    "flavors": [
+      "kryddig",
+      "bitter"
+    ],
+    "glass": "Coupette",
+    "ice": "—",
+    "garnish": "Cocktailkörsbär",
+    "ingredients": [
+      {
+        "amount_cl": 6,
+        "name": "Rye whiskey"
+      },
+      {
+        "amount_cl": 3,
+        "name": "Söt vermouth"
+      },
+      {
+        "amount": "",
+        "name": "2 stänk Angostura"
+      }
+    ],
+    "steps": [
+      "Rör med is och sila i kylt glas."
+    ]
+  },
+  {
+    "id": "margarita",
+    "type": "alcohol",
+    "name": "Margarita",
+    "flavors": [
+      "syrlig",
+      "frisk"
+    ],
+    "glass": "Coupette/rocks",
+    "ice": "Is i shaker, servera utan/över is",
+    "garnish": "Saltrand, limeskiva",
+    "ingredients": [
+      {
+        "amount_cl": 5,
+        "name": "Tequila blanco"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Triple sec"
+      },
+      {
+        "amount_cl": 3,
+        "name": "Limejuice"
+      }
+    ],
+    "steps": [
+      "Skaka med is.",
+      "Sila i saltat glas eller över is."
+    ],
+    "tips": "Rimma halva glaset för valbar salthalt."
+  },
+  {
+    "id": "mezcal_margarita",
+    "type": "alcohol",
+    "name": "Mezcal Margarita",
+    "flavors": [
+      "rökig",
+      "syrlig"
+    ],
+    "glass": "Rocks/coupe",
+    "ice": "Is",
+    "garnish": "Saltrand, lime",
+    "ingredients": [
+      {
+        "amount_cl": 4,
+        "name": "Mezcal"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Tequila blanco"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Triple sec"
+      },
+      {
+        "amount_cl": 3,
+        "name": "Limejuice"
+      }
+    ],
+    "steps": [
+      "Skaka med is, sila."
+    ]
+  },
+  {
+    "id": "mint_julep",
+    "type": "alcohol",
+    "name": "Mint Julep",
+    "flavors": [
+      "örtig",
+      "söt"
+    ],
+    "glass": "Julepkopp/rocks",
+    "ice": "Krossad is",
+    "garnish": "Myntabukett",
+    "ingredients": [
+      {
+        "amount": "8 blad",
+        "name": "Mynta"
+      },
+      {
+        "amount_cl": 1,
+        "name": "Sockerlag 2:1"
+      },
+      {
+        "amount_cl": 6,
+        "name": "Bourbon"
+      }
+    ],
+    "steps": [
+      "Muddla mynta lätt med sirap, fyll krossad is, tillsätt bourbon, toppa is och mynta."
+    ]
+  },
+  {
+    "id": "mojito",
+    "type": "alcohol",
+    "name": "Mojito",
+    "flavors": [
+      "frisk",
+      "syrlig",
+      "örtig"
+    ],
+    "glass": "Highball",
+    "ice": "Krossad is",
+    "garnish": "Myntakvist, lime",
+    "ingredients": [
+      {
+        "amount": "6–8 blad",
+        "name": "Mynta"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Sockerlag 1:1"
+      },
+      {
+        "amount_cl": 3,
+        "name": "Limejuice"
+      },
+      {
+        "amount_cl": 5,
+        "name": "Ljus rom"
+      },
+      {
+        "amount": "Toppa",
+        "name": "Soda"
+      }
+    ],
+    "steps": [
+      "Muddla mynta lätt med sockerlag.",
+      "Tillsätt lime, rom, is och toppa med soda."
+    ],
+    "tips": "Knacka myntan för doft."
+  },
+  {
+    "id": "moscow_mule",
+    "type": "alcohol",
+    "name": "Moscow Mule",
+    "flavors": [
+      "frisk",
+      "kryddig"
+    ],
+    "glass": "Mugg/kopparmugg",
+    "ice": "Mycket is",
+    "garnish": "Limeklyfta, mynta (valfritt)",
+    "ingredients": [
+      {
+        "amount_cl": 5,
+        "name": "Vodka"
+      },
+      {
+        "amount_cl": 1,
+        "name": "Limejuice"
+      },
+      {
+        "amount": "",
+        "name": "Toppa Ginger beer"
+      }
+    ],
+    "steps": [
+      "Bygg i mugg över is, rör."
+    ]
+  },
+  {
+    "id": "negroni",
+    "type": "alcohol",
+    "name": "Negroni",
+    "flavors": [
+      "bitter",
+      "örtig"
+    ],
+    "glass": "Rocks",
+    "ice": "Stor isbit",
+    "garnish": "Apelsinzest",
+    "ingredients": [
+      {
+        "amount_cl": 3,
+        "name": "Gin"
+      },
+      {
+        "amount_cl": 3,
+        "name": "Campari"
+      },
+      {
+        "amount_cl": 3,
+        "name": "Söt vermouth"
+      }
+    ],
+    "steps": [
+      "Rör med is och sila över stor isbit."
+    ]
+  },
+  {
+    "id": "nordic_rhubarb_gimlet",
+    "type": "alcohol",
+    "name": "Nordic Rhubarb Gimlet",
+    "flavors": [
+      "frisk",
+      "syrlig",
+      "blommig"
+    ],
+    "glass": "Coupette",
+    "ice": "Is i shaker",
+    "garnish": "Tunn rabarberskiva, limezest",
+    "ingredients": [
+      {
+        "amount_cl": 5,
+        "name": "Gin (gärna med enbärsprofil)"
+      },
+      {
+        "amount_cl": 3,
+        "name": "Rabarbersirap"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Limejuice"
+      }
+    ],
+    "steps": [
+      "Skaka allt hårt med is.",
+      "Sila till kylt glas."
+    ],
+    "tips": "Rabarbersirap: 1:1 socker + rabarbersaft; låt dra med lite vanilj."
+  },
+  {
+    "id": "old_fashioned",
+    "type": "alcohol",
+    "name": "Old Fashioned",
+    "flavors": [
+      "söt",
+      "kryddig"
+    ],
+    "glass": "Rocks",
+    "ice": "Stor isbit",
+    "garnish": "Apelsinzest",
+    "ingredients": [
+      {
+        "amount_cl": 6,
+        "name": "Bourbon/rye"
+      },
+      {
+        "amount_cl": 1,
+        "name": "Sockerlag 2:1"
+      },
+      {
+        "amount": "",
+        "name": "2–3 stänk Angostura"
+      }
+    ],
+    "steps": [
+      "Rör i glaset med is och garnera."
+    ]
+  },
+  {
+    "id": "palmetto",
+    "type": "alcohol",
+    "name": "Palmetto (Rum Manhattan)",
+    "flavors": [
+      "kryddig",
+      "bitter"
+    ],
+    "glass": "Coupette",
+    "ice": "—",
+    "garnish": "Apelsinzest",
+    "ingredients": [
+      {
+        "amount_cl": 6,
+        "name": "Mörk rom"
+      },
+      {
+        "amount_cl": 3,
+        "name": "Söt vermouth"
+      },
+      {
+        "amount": "",
+        "name": "2 stänk Angostura"
+      }
+    ],
+    "steps": [
+      "Rör kallt med is och sila."
+    ]
+  },
+  {
+    "id": "paloma",
+    "type": "alcohol",
+    "name": "Paloma",
+    "flavors": [
+      "frisk",
+      "bitter",
+      "syrlig"
+    ],
+    "glass": "Highball",
+    "ice": "Mycket is",
+    "garnish": "Grapefruktskiva,saltrand (valfritt)",
+    "ingredients": [
+      {
+        "amount_cl": 5,
+        "name": "Tequila blanco"
+      },
+      {
+        "amount_cl": 1,
+        "name": "Limejuice"
+      },
+      {
+        "amount": "",
+        "name": "Toppa Grapefruktläsk/juice + soda"
+      }
+    ],
+    "steps": [
+      "Bygg i glas över is, rör."
+    ]
+  },
+  {
+    "id": "paper_plane",
+    "type": "alcohol",
+    "name": "Paper Plane",
+    "flavors": [
+      "bitter",
+      "syrlig"
+    ],
+    "glass": "Coupette",
+    "ice": "—",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "amount_cl": 2.5,
+        "name": "Bourbon"
+      },
+      {
+        "amount_cl": 2.5,
+        "name": "Aperol"
+      },
+      {
+        "amount_cl": 2.5,
+        "name": "Amaro (t.ex. Nonino)"
+      },
+      {
+        "amount_cl": 2.5,
+        "name": "Citronjuice"
+      }
+    ],
+    "steps": [
+      "Skaka med is, sila."
+    ]
+  },
+  {
+    "id": "pear_saffron_fizz",
+    "type": "alcohol",
+    "name": "Pear & Saffron Fizz",
+    "flavors": [
+      "fruktig",
+      "blommig",
+      "frisk"
+    ],
+    "glass": "Flöjt/vinglas",
+    "ice": "—",
+    "garnish": "Päronskiva",
+    "ingredients": [
+      {
+        "amount_cl": 3,
+        "name": "Gin eller päronbrännvin"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Citronjuice"
+      },
+      {
+        "amount_cl": 1.5,
+        "name": "Saffranssirap"
+      },
+      {
+        "amount": "Toppa",
+        "name": "Torrt mousserande vin"
+      }
+    ],
+    "steps": [
+      "Skaka de tre första med is.",
+      "Sila i glas, toppa bubbel."
+    ],
+    "tips": "Passar även som alkoholfri med 0% gin och alkoholfri bubbel."
+  },
+  {
+    "id": "penicillin",
+    "type": "alcohol",
+    "name": "Penicillin",
+    "flavors": [
+      "kryddig",
+      "frisk",
+      "rökig"
+    ],
+    "glass": "Rocks",
+    "ice": "Stor isbit",
+    "garnish": "Ingefärsskiva, citron",
+    "ingredients": [
+      {
+        "amount_cl": 5,
+        "name": "Blended scotch"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Rökig scotch (float)"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Honung–ingefärssirap"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Citronjuice"
+      }
+    ],
+    "steps": [
+      "Skaka med is, sila över is, toppa rökig scotch."
+    ]
+  },
+  {
+    "id": "pepparkaks_old_fashioned",
+    "type": "alcohol",
+    "name": "Pepparkaks Old Fashioned",
+    "flavors": [
+      "jul",
+      "söt",
+      "kryddig"
+    ],
+    "glass": "Rocks",
+    "ice": "Stor isbit",
+    "garnish": "Apelsinzest, kanelstång",
+    "ingredients": [
+      {
+        "amount_cl": 6,
+        "name": "Bourbon/rye"
+      },
+      {
+        "amount_cl": 1,
+        "name": "Pepparkakssirap*"
+      },
+      {
+        "amount": "",
+        "name": "2 stänk Angostura"
+      }
+    ],
+    "steps": [
+      "Rör med is och sila över stor isbit."
+    ],
+    "tips": "*Sirap: 1:1 socker + vatten, koka med kanel, ingefära, kryddnejlika."
+  },
+  {
+    "id": "pimms_cup",
+    "type": "alcohol",
+    "name": "Pimm's Cup",
+    "flavors": [
+      "fruktig",
+      "frisk"
+    ],
+    "glass": "Highball",
+    "ice": "Mycket is",
+    "garnish": "Gurka, jordgubb, citron, mynta",
+    "ingredients": [
+      {
+        "amount_cl": 5,
+        "name": "Pimm's No.1"
+      },
+      {
+        "amount": "",
+        "name": "Toppa Lemonad/ginger ale"
+      }
+    ],
+    "steps": [
+      "Bygg över is med frukt och mynta."
+    ]
+  },
+  {
+    "id": "pisco_sour",
+    "type": "alcohol",
+    "name": "Pisco Sour",
+    "flavors": [
+      "syrlig",
+      "fruktig"
+    ],
+    "glass": "Coupette",
+    "ice": "Is i shaker",
+    "garnish": "Angosturadroppar på skummet",
+    "ingredients": [
+      {
+        "amount_cl": 5,
+        "name": "Pisco"
+      },
+      {
+        "amount_cl": 3,
+        "name": "Limejuice"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Sockerlag 1:1"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Äggvita/aquafaba"
+      }
+    ],
+    "steps": [
+      "Torrskaka, skaka med is, sila."
+    ]
+  },
+  {
+    "id": "ramos_gin_fizz",
+    "type": "alcohol",
+    "name": "Ramos Gin Fizz",
+    "flavors": [
+      "krämig",
+      "blommig"
+    ],
+    "glass": "Highball",
+    "ice": "—",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "amount_cl": 4.5,
+        "name": "Gin"
+      },
+      {
+        "amount_cl": 1.5,
+        "name": "Citronjuice"
+      },
+      {
+        "amount_cl": 1.5,
+        "name": "Limejuice"
+      },
+      {
+        "amount_cl": 3,
+        "name": "Sockerlag"
+      },
+      {
+        "amount_cl": 3,
+        "name": "Grädde"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Äggvita/aquafaba"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Apelsinblomsvatten"
+      },
+      {
+        "amount": "",
+        "name": "Toppa Soda"
+      }
+    ],
+    "steps": [
+      "Torrskaka länge, skaka med is, sila i högt glas och toppa lite soda."
+    ]
+  },
+  {
+    "id": "rum_punch",
+    "type": "alcohol",
+    "name": "Rum Punch",
+    "flavors": [
+      "fruktig",
+      "söt"
+    ],
+    "glass": "Highball",
+    "ice": "Mycket is",
+    "garnish": "Apelsin, ananas",
+    "ingredients": [
+      {
+        "amount_cl": 3,
+        "name": "Ljus rom"
+      },
+      {
+        "amount_cl": 3,
+        "name": "Mörk rom"
+      },
+      {
+        "amount_cl": 3,
+        "name": "Ananasjuice"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Apelsinjuice"
+      },
+      {
+        "amount_cl": 1,
+        "name": "Grenadin"
+      }
+    ],
+    "steps": [
+      "Bygg i glas över is och rör."
+    ]
+  },
+  {
+    "id": "saffran_spritz",
+    "type": "alcohol",
+    "name": "Saffran Spritz",
+    "flavors": [
+      "jul",
+      "fruktig",
+      "bitter"
+    ],
+    "glass": "Vinglas",
+    "ice": "Mycket is",
+    "garnish": "Apelsinskiva",
+    "ingredients": [
+      {
+        "amount_cl": 5,
+        "name": "Prosecco"
+      },
+      {
+        "amount_cl": 4,
+        "name": "Aperol"
+      },
+      {
+        "amount_cl": 1,
+        "name": "Saffranssirap"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Sodavatten"
+      }
+    ],
+    "steps": [
+      "Bygg i glas med is och rör försiktigt."
+    ],
+    "tips": "Saffranssirap: koka sockerlag och dra med en nypa saffran."
+  },
+  {
+    "id": "sangria_red",
+    "type": "alcohol",
+    "name": "Sangria (Röd)",
+    "flavors": [
+      "fruktig",
+      "söt"
+    ],
+    "glass": "Vinglas/kanna",
+    "ice": "Mycket is",
+    "garnish": "Apelsin, äpple",
+    "ingredients": [
+      {
+        "amount_cl": 15,
+        "name": "Rött vin"
+      },
+      {
+        "amount_cl": 5,
+        "name": "Apelsinjuice"
+      },
+      {
+        "amount_cl": 3,
+        "name": "Brandy"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Sockerlag"
+      },
+      {
+        "amount": "",
+        "name": "Soda efter smak"
+      }
+    ],
+    "steps": [
+      "Bygg i kanna med frukt, kyla, servera över is."
+    ]
+  },
+  {
+    "id": "sazerac",
+    "type": "alcohol",
+    "name": "Sazerac",
+    "flavors": [
+      "kryddig"
+    ],
+    "glass": "Rocks (utan is)",
+    "ice": "—",
+    "garnish": "Citronzest",
+    "ingredients": [
+      {
+        "amount_cl": 6,
+        "name": "Rye whiskey"
+      },
+      {
+        "amount_cl": 0.5,
+        "name": "Sockerlag 2:1"
+      },
+      {
+        "amount": "",
+        "name": "2 stänk Peychaud’s bitters"
+      },
+      {
+        "amount": "",
+        "name": "Absint (skölj glas)"
+      }
+    ],
+    "steps": [
+      "Rör kallt, absintskölj glas, sila."
+    ]
+  },
+  {
+    "id": "sea_buckthorn_sour",
+    "type": "alcohol",
+    "name": "Sea Buckthorn Sour (Havtorn)",
+    "flavors": [
+      "syrlig",
+      "fruktig"
+    ],
+    "glass": "Rocks/coupette",
+    "ice": "Is i shaker, servera över/utan is",
+    "garnish": "Apelsinzest",
+    "ingredients": [
+      {
+        "amount_cl": 5,
+        "name": "Bourbon"
+      },
+      {
+        "amount_cl": 2.5,
+        "name": "Havtornspuré"
+      },
+      {
+        "amount_cl": 2.5,
+        "name": "Citronjuice"
+      },
+      {
+        "amount_cl": 1.5,
+        "name": "Sockerlag 1:1"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Äggvita eller aquafaba"
+      }
+    ],
+    "steps": [
+      "Torrskaka, skaka sedan med is.",
+      "Sila fint och garnera."
+    ],
+    "tips": "Havtorn ger tydlig syra – justera sockerlag efter bären."
+  },
+  {
+    "id": "sidecar",
+    "type": "alcohol",
+    "name": "Sidecar",
+    "flavors": [
+      "syrlig",
+      "fruktig"
+    ],
+    "glass": "Coupette",
+    "ice": "Is i shaker",
+    "garnish": "Sockrad kant (valfritt), apelsinzest",
+    "ingredients": [
+      {
+        "amount_cl": 5,
+        "name": "Cognac"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Triple sec"
+      },
+      {
+        "amount_cl": 2.5,
+        "name": "Citronjuice"
+      }
+    ],
+    "steps": [
+      "Skaka med is, sila till kylt glas."
+    ]
+  },
+  {
+    "id": "singapore_sling",
+    "type": "alcohol",
+    "name": "Singapore Sling",
+    "flavors": [
+      "fruktig",
+      "söt"
+    ],
+    "glass": "Highball",
+    "ice": "Mycket is",
+    "garnish": "Körsbär, ananas",
+    "ingredients": [
+      {
+        "amount_cl": 3,
+        "name": "Gin"
+      },
+      {
+        "amount_cl": 1.5,
+        "name": "Körsbärslikör"
+      },
+      {
+        "amount_cl": 1,
+        "name": "Cointreau"
+      },
+      {
+        "amount_cl": 1,
+        "name": "Benedictine"
+      },
+      {
+        "amount_cl": 1,
+        "name": "Grenadin"
+      },
+      {
+        "amount_cl": 8,
+        "name": "Ananasjuice"
+      },
+      {
+        "amount_cl": 1,
+        "name": "Limejuice"
+      },
+      {
+        "amount": "",
+        "name": "Stänk Angostura"
+      }
+    ],
+    "steps": [
+      "Skaka med is, sila över is, toppa soda (valfritt)."
+    ]
+  },
+  {
+    "id": "smoky_beet_margarita",
+    "type": "alcohol",
+    "name": "Smoky Beet Margarita",
+    "flavors": [
+      "rökig",
+      "syrlig",
+      "örtig"
+    ],
+    "glass": "Rocks/coupette",
+    "ice": "Is i shaker, servera över/utan is",
+    "garnish": "Salt/örter på kanten, rödbetschips",
+    "ingredients": [
+      {
+        "amount_cl": 3.5,
+        "name": "Mezcal"
+      },
+      {
+        "amount_cl": 2.5,
+        "name": "Tequila blanco"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Triple sec"
+      },
+      {
+        "amount_cl": 2.5,
+        "name": "Limejuice"
+      },
+      {
+        "amount_cl": 1.5,
+        "name": "Rödbetssirap med rosmarin"
+      }
+    ],
+    "steps": [
+      "Skaka hårt med is och sila.",
+      "Servera med ört-saltrand."
+    ],
+    "tips": "Rödbetssirap: koka rödbetsjuice med socker och rosmarin, sila klart."
+  },
+  {
+    "id": "smor_kola_old_fashioned",
+    "type": "alcohol",
+    "name": "Smörkola Old Fashioned",
+    "flavors": [
+      "söt",
+      "kryddig"
+    ],
+    "glass": "Rocks",
+    "ice": "Stor isbit",
+    "garnish": "Apelsinzest",
+    "ingredients": [
+      {
+        "amount_cl": 6,
+        "name": "Rye eller bourbon fat-washad med brynt smör"
+      },
+      {
+        "amount_cl": 1,
+        "name": "Demerarasirap 2:1"
+      },
+      {
+        "amount": "2–3 stänk",
+        "name": "Aromatiska bitters"
+      }
+    ],
+    "steps": [
+      "Rör med is i glas eller rörglas.",
+      "Sila över stor isbit, garnera."
+    ],
+    "tips": "Fat-wash: Smält brynt smör med whiskey, frys och sila bort fasta fetter."
+  },
+  {
+    "id": "tequila_sunrise",
+    "type": "alcohol",
+    "name": "Tequila Sunrise",
+    "flavors": [
+      "fruktig",
+      "söt"
+    ],
+    "glass": "Highball",
+    "ice": "Is",
+    "garnish": "Apelsinskiva, körsbär",
+    "ingredients": [
+      {
+        "amount_cl": 5,
+        "name": "Tequila blanco"
+      },
+      {
+        "amount_cl": 10,
+        "name": "Apelsinjuice"
+      },
+      {
+        "amount_cl": 1,
+        "name": "Grenadin (float)"
+      }
+    ],
+    "steps": [
+      "Bygg över is, ringla grenadin som sjunker."
+    ]
+  },
+  {
+    "id": "thyme_grapefruit_highball",
+    "type": "alcohol",
+    "name": "Thyme & Grapefruit Highball",
+    "flavors": [
+      "bitter",
+      "frisk",
+      "örtig"
+    ],
+    "glass": "Highball",
+    "ice": "Mycket is",
+    "garnish": "Timjan, grapefruktskiva",
+    "ingredients": [
+      {
+        "amount_cl": 4.5,
+        "name": "Tequila blanco"
+      },
+      {
+        "amount_cl": 1,
+        "name": "Limejuice"
+      },
+      {
+        "amount_cl": 1.5,
+        "name": "Timjansirap"
+      },
+      {
+        "amount": "Toppa",
+        "name": "Grapefrukt-soda eller läsk"
+      }
+    ],
+    "steps": [
+      "Bygg i glas över is.",
+      "Toppa och rör försiktigt."
+    ],
+    "tips": "Bränn lätt på timjankvisten för mer doft."
+  },
+  {
+    "id": "tom_collins",
+    "type": "alcohol",
+    "name": "Tom Collins",
+    "flavors": [
+      "frisk",
+      "syrlig"
+    ],
+    "glass": "Highball",
+    "ice": "Mycket is",
+    "garnish": "Citron, körsbär",
+    "ingredients": [
+      {
+        "amount_cl": 5,
+        "name": "Gin"
+      },
+      {
+        "amount_cl": 3,
+        "name": "Citronjuice"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Sockerlag"
+      },
+      {
+        "amount": "",
+        "name": "Toppa Sodavatten"
+      }
+    ],
+    "steps": [
+      "Skaka lätt, sila över is, toppa soda."
+    ]
+  },
+  {
+    "id": "tomte_fizz",
+    "type": "alcohol",
+    "name": "Tomte Fizz (Tranbär & Rosmarin)",
+    "flavors": [
+      "jul",
+      "frisk",
+      "örtig"
+    ],
+    "glass": "Flöjt/vinglas",
+    "ice": "—",
+    "garnish": "Rosmaringren",
+    "ingredients": [
+      {
+        "amount_cl": 3,
+        "name": "Gin"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Citronjuice"
+      },
+      {
+        "amount_cl": 1.5,
+        "name": "Sockerlag"
+      },
+      {
+        "amount_cl": 4,
+        "name": "Tranbärsjuice"
+      },
+      {
+        "amount": "",
+        "name": "Toppa Mousserande vin"
+      }
+    ],
+    "steps": [
+      "Skaka gin, citron, sockerlag, tranbär lätt med is.",
+      "Sila i glas och toppa bubbel."
+    ],
+    "tips": "Byt gin mot alkoholfri gin → mocktail."
+  },
+  {
+    "id": "vesper",
+    "type": "alcohol",
+    "name": "Vesper",
+    "flavors": [
+      "frisk",
+      "bitter"
+    ],
+    "glass": "Coupette",
+    "ice": "—",
+    "garnish": "Citronzest",
+    "ingredients": [
+      {
+        "amount_cl": 6,
+        "name": "Gin"
+      },
+      {
+        "amount_cl": 1.5,
+        "name": "Vodka"
+      },
+      {
+        "amount_cl": 1.5,
+        "name": "Lillet Blanc"
+      }
+    ],
+    "steps": [
+      "Rör kallt med is, sila."
+    ]
+  },
+  {
+    "id": "whiskey_sour",
+    "type": "alcohol",
+    "name": "Whiskey Sour",
+    "flavors": [
+      "syrlig",
+      "fruktig"
+    ],
+    "glass": "Rocks/coupe",
+    "ice": "Is i shaker, servera över/utan is",
+    "garnish": "Citronzest, körsbär",
+    "ingredients": [
+      {
+        "amount_cl": 5,
+        "name": "Bourbon"
+      },
+      {
+        "amount_cl": 3,
+        "name": "Citronjuice"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Sockerlag 1:1"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Äggvita/aquafaba"
+      }
+    ],
+    "steps": [
+      "Torrskaka, skaka med is, sila."
+    ]
+  },
+  {
+    "id": "white_lady",
+    "type": "alcohol",
+    "name": "White Lady",
+    "flavors": [
+      "syrlig",
+      "frisk"
+    ],
+    "glass": "Coupette",
+    "ice": "Is i shaker",
+    "garnish": "Citronzest",
+    "ingredients": [
+      {
+        "amount_cl": 4,
+        "name": "Gin"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Triple sec"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Citronjuice"
+      }
+    ],
+    "steps": [
+      "Skaka med is, sila."
+    ]
+  },
+  {
+    "id": "white_russian",
+    "type": "alcohol",
+    "name": "White Russian",
+    "flavors": [
+      "krämig",
+      "söt"
+    ],
+    "glass": "Rocks",
+    "ice": "Is",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "amount_cl": 4,
+        "name": "Vodka"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Kaffelikör"
+      },
+      {
+        "amount_cl": 3,
+        "name": "Grädde/mjölk"
+      }
+    ],
+    "steps": [
+      "Bygg över is, rör lätt."
+    ]
+  },
+  {
+    "id": "apple_fizz",
+    "type": "noalcohol",
+    "name": "Apple Fizz",
+    "flavors": [
+      "frisk",
+      "fruktig"
+    ],
+    "glass": "Highball",
+    "ice": "Is",
+    "garnish": "Äppelskiva, kanel (lätt)",
+    "ingredients": [
+      {
+        "amount_cl": 8,
+        "name": "Äppelmust"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Citronjuice"
+      },
+      {
+        "amount": "",
+        "name": "Toppa Soda"
+      }
+    ],
+    "steps": [
+      "Bygg i glas och rör."
+    ]
+  },
+  {
+    "id": "apple_spice_sour_zero",
+    "type": "noalcohol",
+    "name": "Apple Spice Sour (0%)",
+    "flavors": [
+      "kryddig",
+      "fruktig",
+      "syrlig"
+    ],
+    "glass": "Rocks/coupette",
+    "ice": "Is i shaker",
+    "garnish": "Äppelskiva, kanel",
+    "ingredients": [
+      {
+        "amount_cl": 6,
+        "name": "Äppelmust"
+      },
+      {
+        "amount_cl": 2.5,
+        "name": "Citronjuice"
+      },
+      {
+        "amount_cl": 1.5,
+        "name": "Kanel-ingefärssirap"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Aquafaba (för skum)"
+      }
+    ],
+    "steps": [
+      "Torrskaka, skaka med is.",
+      "Sila och garnera."
+    ],
+    "tips": "Liten nypa salt rundar syran."
+  },
+  {
+    "id": "arnold_palmer",
+    "type": "noalcohol",
+    "name": "Arnold Palmer",
+    "flavors": [
+      "frisk",
+      "syrlig"
+    ],
+    "glass": "Highball",
+    "ice": "Is",
+    "garnish": "Citron",
+    "ingredients": [
+      {
+        "amount_cl": 6,
+        "name": "Is­te"
+      },
+      {
+        "amount_cl": 6,
+        "name": "Lemonad"
+      }
+    ],
+    "steps": [
+      "Bygg över is och rör."
+    ]
+  },
+  {
+    "id": "basil_lemonade",
+    "type": "noalcohol",
+    "name": "Basil Lemonade",
+    "flavors": [
+      "örtig",
+      "syrlig"
+    ],
+    "glass": "Highball",
+    "ice": "Is",
+    "garnish": "Basilika",
+    "ingredients": [
+      {
+        "amount_cl": 8,
+        "name": "Lemonad"
+      },
+      {
+        "amount": "5 blad",
+        "name": "Basilika (muddla)"
+      },
+      {
+        "amount_cl": 1,
+        "name": "Limejuice"
+      }
+    ],
+    "steps": [
+      "Muddla basilika, bygg med is och lemonad."
+    ]
+  },
+  {
+    "id": "berry_smash",
+    "type": "noalcohol",
+    "name": "Berry Smash",
+    "flavors": [
+      "fruktig",
+      "syrlig"
+    ],
+    "glass": "Rocks",
+    "ice": "Krossad is",
+    "garnish": "Bär, mynta",
+    "ingredients": [
+      {
+        "amount": "1 näve",
+        "name": "Blandade bär"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Sockerlag"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Citronjuice"
+      },
+      {
+        "amount": "",
+        "name": "Toppa Soda"
+      }
+    ],
+    "steps": [
+      "Muddla bär lätt, bygg med is, toppa soda."
+    ]
+  },
+  {
+    "id": "black_currant_shrub_soda",
+    "type": "noalcohol",
+    "name": "Black Currant Shrub Soda",
+    "flavors": [
+      "fruktig",
+      "syrlig"
+    ],
+    "glass": "Vinglas",
+    "ice": "Is",
+    "garnish": "Svartvinbär, mynta",
+    "ingredients": [
+      {
+        "amount_cl": 4,
+        "name": "Svartvinbärsshrub (1:1:1 bär:socker:vinäger)"
+      },
+      {
+        "amount": "Toppa",
+        "name": "Sodavatten"
+      }
+    ],
+    "steps": [
+      "Bygg i glas över is.",
+      "Toppa och rör försiktigt."
+    ],
+    "tips": "Använd äppelcidervinäger för rundare syra."
+  },
+  {
+    "id": "blueberry_lavender_spritz_zero",
+    "type": "noalcohol",
+    "name": "Blueberry Lavender Spritz (0%)",
+    "flavors": [
+      "blommig",
+      "fruktig",
+      "frisk"
+    ],
+    "glass": "Vinglas",
+    "ice": "Mycket is",
+    "garnish": "Blåbär, citronskiva",
+    "ingredients": [
+      {
+        "amount_cl": 4,
+        "name": "Blåbärssirap"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Citronjuice"
+      },
+      {
+        "amount": "Toppa",
+        "name": "Alkoholfri bubbel eller soda"
+      }
+    ],
+    "steps": [
+      "Bygg i glas över is.",
+      "Toppa och rör försiktigt."
+    ],
+    "tips": "Lavendel i sirapen – använd lätt dos."
+  },
+  {
+    "id": "citrus_spritz_zero",
+    "type": "noalcohol",
+    "name": "Citrus Spritz (zero)",
+    "flavors": [
+      "frisk",
+      "bitter"
+    ],
+    "glass": "Vinglas",
+    "ice": "Mycket is",
+    "garnish": "Apelsin",
+    "ingredients": [
+      {
+        "amount_cl": 6,
+        "name": "Aperitif 0% (bitter)"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Sodavatten"
+      }
+    ],
+    "steps": [
+      "Bygg över is i vinglas."
+    ]
+  },
+  {
+    "id": "cocoa_orange_shake_zero",
+    "type": "noalcohol",
+    "name": "Cocoa Orange Shake (0%)",
+    "flavors": [
+      "krämig",
+      "söt"
+    ],
+    "glass": "Rocks/vinglas",
+    "ice": "Is i shaker (valfritt)",
+    "garnish": "Apelsinzest, kakao",
+    "ingredients": [
+      {
+        "amount_cl": 10,
+        "name": "Mjölk/vegodryck"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Kakaosirap"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Apelsinsirap eller juice"
+      }
+    ],
+    "steps": [
+      "Skaka kallt och sila.",
+      "Garnera med zest."
+    ],
+    "tips": "Fungerar varmt också – skippa is och värm varsamt."
+  },
+  {
+    "id": "cucumber_dill_cooler_zero",
+    "type": "noalcohol",
+    "name": "Cucumber & Dill Cooler (0%)",
+    "flavors": [
+      "frisk",
+      "örtig"
+    ],
+    "glass": "Highball",
+    "ice": "Is",
+    "garnish": "Dilltopp, gurkband",
+    "ingredients": [
+      {
+        "amount": "3 skivor",
+        "name": "Gurka (muddlas lätt)"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Citronsaft"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Sockerlag"
+      },
+      {
+        "amount": "Toppa",
+        "name": "Soda"
+      }
+    ],
+    "steps": [
+      "Muddla gurka lätt, bygg över is.",
+      "Toppa soda och rör."
+    ],
+    "tips": "En nypa salt lyfter gurksmaken."
+  },
+  {
+    "id": "cucumber_cooler",
+    "type": "noalcohol",
+    "name": "Cucumber Cooler",
+    "flavors": [
+      "frisk",
+      "örtig"
+    ],
+    "glass": "Highball",
+    "ice": "Is",
+    "garnish": "Gurkband, mynta",
+    "ingredients": [
+      {
+        "amount": "3 skivor",
+        "name": "Gurka (muddla lätt)"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Sockerlag"
+      },
+      {
+        "amount_cl": 3,
+        "name": "Limejuice"
+      },
+      {
+        "amount": "",
+        "name": "Toppa Soda"
+      }
+    ],
+    "steps": [
+      "Muddla gurka, bygg med is och toppa soda."
+    ]
+  },
+  {
+    "id": "elderflower_fizz_zero",
+    "type": "noalcohol",
+    "name": "Elderflower Fizz (0%)",
+    "flavors": [
+      "blommig",
+      "frisk"
+    ],
+    "glass": "Vinglas",
+    "ice": "Is",
+    "garnish": "Citron, mynta",
+    "ingredients": [
+      {
+        "amount_cl": 3,
+        "name": "Flädersaft koncentrat"
+      },
+      {
+        "amount": "",
+        "name": "Toppa Alkoholfri bubbel/soda"
+      }
+    ],
+    "steps": [
+      "Bygg över is, toppa bubbel/soda."
+    ]
+  },
+  {
+    "id": "ginger_mule_mock",
+    "type": "noalcohol",
+    "name": "Ginger Mule (alkoholfri)",
+    "flavors": [
+      "kryddig",
+      "frisk"
+    ],
+    "glass": "Mugg/highball",
+    "ice": "Is",
+    "garnish": "Lime",
+    "ingredients": [
+      {
+        "amount_cl": 1,
+        "name": "Limejuice"
+      },
+      {
+        "amount": "",
+        "name": "Toppa Ginger beer"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Sockerlag (valfritt)"
+      }
+    ],
+    "steps": [
+      "Bygg över is och rör."
+    ]
+  },
+  {
+    "id": "hibiscus_fizz",
+    "type": "noalcohol",
+    "name": "Hibiscus Fizz",
+    "flavors": [
+      "fruktig",
+      "blommig",
+      "syrlig"
+    ],
+    "glass": "Vinglas",
+    "ice": "Is",
+    "garnish": "Apelsinzest",
+    "ingredients": [
+      {
+        "amount_cl": 6,
+        "name": "Kall hibiskuste"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Citronjuice"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Sockerlag"
+      },
+      {
+        "amount": "",
+        "name": "Toppa Soda"
+      }
+    ],
+    "steps": [
+      "Bygg över is, toppa soda."
+    ]
+  },
+  {
+    "id": "julmust_bitter",
+    "type": "noalcohol",
+    "name": "Julmust & Apelsin Bitter Fizz",
+    "flavors": [
+      "jul",
+      "bitter",
+      "fruktig"
+    ],
+    "glass": "Highball",
+    "ice": "Mycket is",
+    "garnish": "Apelsinzest",
+    "ingredients": [
+      {
+        "amount_cl": 6,
+        "name": "Julmust (kyld)"
+      },
+      {
+        "amount_cl": 4,
+        "name": "Apelsinjuice (färsk)"
+      },
+      {
+        "amount_cl": 1,
+        "name": "Citronjuice"
+      },
+      {
+        "amount": "",
+        "name": "Toppa Tonic"
+      }
+    ],
+    "steps": [
+      "Bygg över is, rör försiktigt."
+    ],
+    "tips": "Justera bitterhet med mer/mindre tonic."
+  },
+  {
+    "id": "lingon_garden_spritz_zero",
+    "type": "noalcohol",
+    "name": "Lingon Garden Spritz (0%)",
+    "flavors": [
+      "frisk",
+      "syrlig",
+      "örtig"
+    ],
+    "glass": "Vinglas",
+    "ice": "Is",
+    "garnish": "Lingon, rosmarin",
+    "ingredients": [
+      {
+        "amount_cl": 4,
+        "name": "Lingonsaft koncentrat"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Citronjuice"
+      },
+      {
+        "amount": "Toppa",
+        "name": "Soda"
+      }
+    ],
+    "steps": [
+      "Bygg i glas över is.",
+      "Toppa och rör."
+    ]
+  },
+  {
+    "id": "lingon_sprudel",
+    "type": "noalcohol",
+    "name": "Lingon Sprudel",
+    "flavors": [
+      "jul",
+      "frisk",
+      "syrlig"
+    ],
+    "glass": "Vinglas",
+    "ice": "Mycket is",
+    "garnish": "Lingon, rosmarin",
+    "ingredients": [
+      {
+        "amount_cl": 4,
+        "name": "Lingonsaft koncentrat"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Citronjuice"
+      },
+      {
+        "amount": "",
+        "name": "Toppa Alkoholfri bubbel/soda"
+      }
+    ],
+    "steps": [
+      "Bygg i glas över is och toppa."
+    ],
+    "tips": "Spritsa glasets kant med socker för festkänsla."
+  },
+  {
+    "id": "mango_lassi_mock",
+    "type": "noalcohol",
+    "name": "Mango Lassi (mocktail)",
+    "flavors": [
+      "krämig",
+      "söt"
+    ],
+    "glass": "Högt glas",
+    "ice": "—",
+    "garnish": "Kardemumma (nypa)",
+    "ingredients": [
+      {
+        "amount_cl": 10,
+        "name": "Yoghurt naturell/veg"
+      },
+      {
+        "amount_cl": 8,
+        "name": "Mango puré"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Sockerlag"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Vatten/mjölk"
+      }
+    ],
+    "steps": [
+      "Mixa kallt till slät, servera kyld."
+    ]
+  },
+  {
+    "id": "nordic_spruce_tonic_zero",
+    "type": "noalcohol",
+    "name": "Nordic Spruce Tonic (0%)",
+    "flavors": [
+      "frisk",
+      "bitter",
+      "örtig"
+    ],
+    "glass": "Highball",
+    "ice": "Mycket is",
+    "garnish": "Grankvist/rosmarin och citron",
+    "ingredients": [
+      {
+        "amount_cl": 3,
+        "name": "Bitter aperitif 0% (eller tonicreduktion)"
+      },
+      {
+        "amount_cl": 1.5,
+        "name": "Citronjuice"
+      },
+      {
+        "amount_cl": 1.5,
+        "name": "Gransirap/rosmarinsirap"
+      },
+      {
+        "amount": "Toppa",
+        "name": "Tonic"
+      }
+    ],
+    "steps": [
+      "Bygg över is och rör.",
+      "Garnera generöst."
+    ],
+    "tips": "För mer bitterhet – öka tonicreduktionen lätt."
+  },
+  {
+    "id": "peach_tea_fizz",
+    "type": "noalcohol",
+    "name": "Peach Iced Tea Fizz",
+    "flavors": [
+      "fruktig",
+      "söt"
+    ],
+    "glass": "Highball",
+    "ice": "Is",
+    "garnish": "Persika",
+    "ingredients": [
+      {
+        "amount_cl": 10,
+        "name": "Kallblandat persikote"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Citronjuice"
+      },
+      {
+        "amount": "",
+        "name": "Toppa Soda"
+      }
+    ],
+    "steps": [
+      "Bygg i glas över is."
+    ]
+  },
+  {
+    "id": "pear_cardamom_lassi_zero",
+    "type": "noalcohol",
+    "name": "Pear Cardamom Lassi (0%)",
+    "flavors": [
+      "krämig",
+      "fruktig",
+      "blommig"
+    ],
+    "glass": "Högt glas",
+    "ice": "—",
+    "garnish": "Kardemumma",
+    "ingredients": [
+      {
+        "amount_cl": 10,
+        "name": "Yoghurt (växtbaserad funkar)"
+      },
+      {
+        "amount_cl": 6,
+        "name": "Päronpuré eller must"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Sockerlag"
+      },
+      {
+        "amount": "Nypa",
+        "name": "Stötta kardemummafrön"
+      }
+    ],
+    "steps": [
+      "Mixa kallt till slät konsistens.",
+      "Servera väl kyld."
+    ]
+  },
+  {
+    "id": "pepparkaks_mjolk",
+    "type": "noalcohol",
+    "name": "Pepparkaks-mjölk (mocktail)",
+    "flavors": [
+      "jul",
+      "söt",
+      "krämig"
+    ],
+    "glass": "Rocks",
+    "ice": "Is (valfritt)",
+    "garnish": "Riven muskot",
+    "ingredients": [
+      {
+        "amount_cl": 12,
+        "name": "Mjölk/vegodryck"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Pepparkakssirap"
+      }
+    ],
+    "steps": [
+      "Skaka kallt med is eller värm lätt för varm variant."
+    ],
+    "tips": "God även med havre- eller mandeldryck."
+  },
+  {
+    "id": "pineapple_ginger_ale",
+    "type": "noalcohol",
+    "name": "Pineapple Ginger Ale",
+    "flavors": [
+      "fruktig",
+      "kryddig"
+    ],
+    "glass": "Highball",
+    "ice": "Is",
+    "garnish": "Ananas",
+    "ingredients": [
+      {
+        "amount_cl": 8,
+        "name": "Ananasjuice"
+      },
+      {
+        "amount": "",
+        "name": "Toppa Ginger ale"
+      },
+      {
+        "amount_cl": 1,
+        "name": "Limejuice"
+      }
+    ],
+    "steps": [
+      "Bygg över is och rör."
+    ]
+  },
+  {
+    "id": "pear_sage_spritz",
+    "type": "noalcohol",
+    "name": "Päron & Salvia Spritz",
+    "flavors": [
+      "fruktig",
+      "örtig"
+    ],
+    "glass": "Vinglas",
+    "ice": "Is",
+    "garnish": "Salvia",
+    "ingredients": [
+      {
+        "amount_cl": 8,
+        "name": "Päronmust"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Salviasirap"
+      },
+      {
+        "amount": "",
+        "name": "Toppa Soda"
+      }
+    ],
+    "steps": [
+      "Bygg över is, rör."
+    ]
+  },
+  {
+    "id": "rosehip_tonic_sling_zero",
+    "type": "noalcohol",
+    "name": "Rosehip Tonic Sling (0%)",
+    "flavors": [
+      "bitter",
+      "frisk",
+      "blommig"
+    ],
+    "glass": "Highball",
+    "ice": "Is",
+    "garnish": "Torkat nypon, apelsinzest",
+    "ingredients": [
+      {
+        "amount_cl": 6,
+        "name": "Nyponte (starkt bryggt och kylt)"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Citronjuice"
+      },
+      {
+        "amount_cl": 1.5,
+        "name": "Honungssirap 2:1"
+      },
+      {
+        "amount": "Toppa",
+        "name": "Tonic"
+      }
+    ],
+    "steps": [
+      "Bygg över is.",
+      "Toppa tonic och rör."
+    ]
+  },
+  {
+    "id": "rosemary_grapefruit",
+    "type": "noalcohol",
+    "name": "Rosmarin Grapefruit Spritz",
+    "flavors": [
+      "bitter",
+      "örtig",
+      "frisk"
+    ],
+    "glass": "Vinglas",
+    "ice": "Is",
+    "garnish": "Rosmarinkvist",
+    "ingredients": [
+      {
+        "amount_cl": 8,
+        "name": "Grapefruktjuice"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Rosmarinsirap"
+      },
+      {
+        "amount": "",
+        "name": "Toppa Soda"
+      }
+    ],
+    "steps": [
+      "Bygg över is, rör."
+    ]
+  },
+  {
+    "id": "shirley_temple",
+    "type": "noalcohol",
+    "name": "Shirley Temple",
+    "flavors": [
+      "söt",
+      "fruktig"
+    ],
+    "glass": "Highball",
+    "ice": "Is",
+    "garnish": "Körsbär",
+    "ingredients": [
+      {
+        "amount_cl": 1,
+        "name": "Grenadin"
+      },
+      {
+        "amount": "",
+        "name": "Toppa Ginger ale/7up"
+      },
+      {
+        "amount": "Stänk",
+        "name": "Limejuice"
+      }
+    ],
+    "steps": [
+      "Bygg i glas över is, rör."
+    ]
+  },
+  {
+    "id": "strawberry_lemonade",
+    "type": "noalcohol",
+    "name": "Strawberry Lemonade",
+    "flavors": [
+      "fruktig",
+      "syrlig"
+    ],
+    "glass": "Highball",
+    "ice": "Is",
+    "garnish": "Jordgubbar, citron",
+    "ingredients": [
+      {
+        "amount_cl": 6,
+        "name": "Jordgubbspuré/saft"
+      },
+      {
+        "amount_cl": 6,
+        "name": "Lemonad"
+      }
+    ],
+    "steps": [
+      "Bygg i glas över is."
+    ]
+  },
+  {
+    "id": "vanilj_eggnog_mocktail",
+    "type": "noalcohol",
+    "name": "Vanilj Eggnog (mocktail)",
+    "flavors": [
+      "jul",
+      "krämig",
+      "söt"
+    ],
+    "glass": "Mugg/rocks",
+    "ice": "—",
+    "garnish": "Muskot, kanel",
+    "ingredients": [
+      {
+        "amount_cl": 12,
+        "name": "Vaniljsås tunn/äggfri custard"
+      },
+      {
+        "amount_cl": 4,
+        "name": "Mjölk/vegodryck"
+      }
+    ],
+    "steps": [
+      "Vispa kallt och servera med muskot."
+    ],
+    "tips": "För kryddig variant: koka mjölken med kanel, nejlika, vanilj och svalna."
+  },
+  {
+    "id": "virgin_mary",
+    "type": "noalcohol",
+    "name": "Virgin Mary",
+    "flavors": [
+      "kryddig",
+      "frisk"
+    ],
+    "glass": "Highball",
+    "ice": "Is",
+    "garnish": "Selleri, citron",
+    "ingredients": [
+      {
+        "amount_cl": 12,
+        "name": "Tomatjuice"
+      },
+      {
+        "amount": "",
+        "name": "Citronjuice, Worcestershiresås, tabasco, salt/peppar (smaka av)"
+      }
+    ],
+    "steps": [
+      "Bygg i glas med is, rör och justera kryddning."
+    ]
+  },
+  {
+    "id": "virgin_mojito",
+    "type": "noalcohol",
+    "name": "Virgin Mojito",
+    "flavors": [
+      "frisk",
+      "syrlig",
+      "örtig"
+    ],
+    "glass": "Highball",
+    "ice": "Krossad is",
+    "garnish": "Myntakvist, lime",
+    "ingredients": [
+      {
+        "amount": "8 blad",
+        "name": "Mynta"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Sockerlag 1:1"
+      },
+      {
+        "amount_cl": 3,
+        "name": "Limejuice"
+      },
+      {
+        "amount": "",
+        "name": "Toppa Soda"
+      }
+    ],
+    "steps": [
+      "Muddla mynta lätt med sirap, fyll is, toppa soda."
+    ]
+  },
+  {
+    "id": "virgin_pina_colada",
+    "type": "noalcohol",
+    "name": "Virgin Piña Colada",
+    "flavors": [
+      "krämig",
+      "fruktig",
+      "söt"
+    ],
+    "glass": "Hurricane",
+    "ice": "Krossad/isblandning",
+    "garnish": "Ananas, körsbär",
+    "ingredients": [
+      {
+        "amount_cl": 8,
+        "name": "Ananasjuice"
+      },
+      {
+        "amount_cl": 6,
+        "name": "Kokosgrädde/mjölk"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Kokossirap (valfritt)"
+      }
+    ],
+    "steps": [
+      "Mixa eller skaka med is, servera kall."
+    ]
+  },
+  {
+    "id": "watermelon_cooler",
+    "type": "noalcohol",
+    "name": "Watermelon Cooler",
+    "flavors": [
+      "frisk",
+      "fruktig"
+    ],
+    "glass": "Highball",
+    "ice": "Is",
+    "garnish": "Mynta",
+    "ingredients": [
+      {
+        "amount_cl": 10,
+        "name": "Vattenmelonjuice (sila)"
+      },
+      {
+        "amount_cl": 2,
+        "name": "Limejuice"
+      },
+      {
+        "amount_cl": 1,
+        "name": "Sockerlag"
+      }
+    ],
+    "steps": [
+      "Skaka lätt och sila över is."
+    ]
+  }
+]
