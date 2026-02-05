@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fredagsdrinken</title>
+  <meta name="theme-color" content="#99004d" />
+  <style>
+    :root{
+      --bg1:#ffe9f3;
+      --bg2:#ffd9e8;
+      --ink:#111;
+      --muted:#555;
+      --brand:#99004d;
+      --card:#ffffffcc;
+      --chip:#f4f4f6;
+      --chip-on:#ffebf5;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,Arial,"Apple Color Emoji","Segoe UI Emoji";
+      color:var(--ink);
+      background: radial-gradient(1200px 600px at 10% -10%, var(--bg2), transparent),
+                  radial-gradient(1000px 500px at 110% 10%, var(--bg2), transparent),
+                  linear-gradient(180deg, var(--bg1), #fff 50%);
+    }
+    header{
+      position:sticky; top:0; z-index:10;
+      background:linear-gradient(180deg, #fff8fb 0%, #ffffffcf 100%);
+      backdrop-filter:saturate(140%) blur(8px);
+      border-bottom:1px solid #eee;
+    }
+    .wrap{max-width:960px;margin:0 auto;padding:16px}
+    h1{margin:0; font-size: clamp(24px, 3.4vw, 36px); color:var(--brand); letter-spacing:.5px}
+    .controls{
+      display:grid; grid-template-columns:1fr; gap:12px; margin-top:10px;
+    }
+    @media (min-width:720px){
+      .controls{grid-template-columns: 1fr 1fr 1fr auto;}
+    }
+    label{font-size:14px;color:var(--muted)}
+    select, input[type="number"], input[type="text"]{
+      width:100%; padding:10px 12px; border-radius:12px; border:1px solid #ddd; background:#fff;
+      font-size:16px;
+    }
+    .btn{
+      appearance:none; border:1px solid #c91d6b; background:linear-gradient(180deg,#e83a8e,#c91d6b);
+      color:#fff; padding:12px 16px; border-radius:14px; font-weight:600; cursor:pointer;
+      box-shadow: 0 6px 16px #c91d6b33;
+    }
+    .btn:active{transform:translateY(1px)}
+    .chips{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 4px}
+    .chip{
+      padding:8px 12px;border-radius:999px;border:1px solid #ddd;background:var(--chip);
+      font-size:14px;cursor:pointer;user-select:none;
+    }
+    .chip[aria-pressed="true"]{background:var(--chip-on); border-color:#ffcfe6}
+    .row{display:grid; gap:14px}
+    @media(min-width:720px){.row{grid-template-columns: 1.2fr .8fr}}
+    .card{background:var(--card); border:1px solid #eee; border-radius:18px; padding:16px; box-shadow:0 8px 22px #0000000f}
+    .title{font-size:22px; font-weight:700}
+    .muted{color:var(--muted); font-size:14px}
+    ul{margin:8px 0 0 18px}
+    footer{margin:40px auto 24px; text-align:center; color:#666; font-size:12px}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>Fredagsdrinken</h1>
+      <div class="muted">Slumpa recept eller hitta något av det du redan har hemma.</div>
+      <div class="controls">
+        <div>
+          <label for="type">Typ</label>
+          <select id="type">
+            <option value="all">Alla</option>
+            <option value="alcohol">Med alkohol</option>
+            <option value="noalcohol">Alkoholfri</option>
+          </select>
+        </div>
+        <div>
+          <label>Smakprofil</label>
+          <div class="chips" id="flavorChips" role="group" aria-label="Smaker"></div>
+        </div>
+        <div>
+          <label for="servings">Antal glas</label>
+          <input id="servings" type="number" inputmode="numeric" min="1" step="1" placeholder="1" value="1">
+        </div>
+        <div style="display:flex; align-items:flex-end">
+          <button id="randomBtn" class="btn" style="width:100%">Slumpa drink</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <!-- Ingredient matcher block -->
+    <link rel="preload" as="script" href="ingredient-matcher.js">
+    <div id="ingredient-matcher" class="max-w-2xl" style="margin:14px 0 6px 0"></div>
+    <script src="ingredient-matcher.js" defer></script>
+    <script>
+      const RECIPE_SOURCE = 'recipes.merged.json'; // byt om du använder annat filnamn
+      window.addEventListener('DOMContentLoaded', () => {
+        if (window.initIngredientMatcher) {
+          window.initIngredientMatcher({ fetchUrl: RECIPE_SOURCE });
+        }
+      });
+    </script>
+
+    <div class="row" style="margin-top:12px">
+      <section id="resultCard" class="card">
+        <div class="title" id="rTitle">—</div>
+        <div class="muted" id="rMeta">—</div>
+        <div id="rTips" class="muted" style="margin-top:6px"></div>
+        <div style="display:grid; gap:12px; margin-top:10px">
+          <div>
+            <div class="muted">Ingredienser</div>
+            <ul id="rIngredients"></ul>
+          </div>
+          <div>
+            <div class="muted">Steg</div>
+            <ul id="rSteps"></ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="muted">Detaljer</div>
+        <div id="rDetails" style="margin-top:8px"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer>Skapad av JL</footer>
+
+  <script>
+    const state = { recipes: [], filtered: [], activeFlavors: new Set() };
+
+    async function loadRecipes(){
+      const res = await fetch(RECIPE_SOURCE);
+      const data = await res.json();
+      state.recipes = Array.isArray(data) ? data : [];
+      buildFlavorChips();
+      applyFilters();
+    }
+
+    function buildFlavorChips(){
+      const all = new Set();
+      state.recipes.forEach(r => (r.flavors||[]).forEach(f => all.add(f)));
+      const cont = document.getElementById('flavorChips');
+      cont.innerHTML = '';
+      [...all].sort().forEach(f => {
+        const b = document.createElement('button');
+        b.className = 'chip';
+        b.type = 'button';
+        b.setAttribute('aria-pressed','false');
+        b.textContent = f;
+        b.addEventListener('click', () => {
+          const on = b.getAttribute('aria-pressed') === 'true';
+          b.setAttribute('aria-pressed', String(!on));
+          if (on) state.activeFlavors.delete(f); else state.activeFlavors.add(f);
+          applyFilters();
+        });
+        cont.appendChild(b);
+      });
+    }
+
+    function applyFilters(){
+      const type = document.getElementById('type').value;
+      let list = state.recipes.slice();
+      if (type !== 'all'){
+        list = list.filter(r => r.type === type);
+      }
+      if (state.activeFlavors.size){
+        list = list.filter(r => {
+          const fl = r.flavors || [];
+          return [...state.activeFlavors].every(f => fl.includes(f));
+        });
+      }
+      state.filtered = list;
+    }
+
+    function pickRandom(){
+      if (!state.filtered.length){
+        alert('Inga recept matchar filtret just nu.');
+        return;
+      }
+      const i = Math.floor(Math.random() * state.filtered.length);
+      const r = state.filtered[i];
+      renderRecipe(r);
+    }
+
+    function parseServings(){
+      const el = document.getElementById('servings');
+      const v = parseInt((el.value || '1').replace(/[^0-9]/g,''), 10);
+      return isNaN(v) || v < 1 ? 1 : v;
+    }
+
+    function formatAmount(ing, mult){
+      if (typeof ing.amount_cl === 'number'){
+        const total = ing.amount_cl * mult;
+        return `${(Math.round(total * 10)/10).toString().replace('.',',')} cl`;
+      }
+      if (typeof ing.amount === 'string'){
+        const m = ing.amount.trim().match(/^([0-9]+)(?:\s*)(.*)$/);
+        if (m){
+          const num = parseInt(m[1],10) * mult;
+          const rest = m[2] || '';
+          return `${num} ${rest}`.trim();
+        }
+        return ing.amount;
+      }
+      return '';
+    }
+
+    function renderRecipe(r){
+      const s = parseServings();
+      document.getElementById('rTitle').textContent = r.name || '—';
+      const meta = [];
+      if (r.type === 'alcohol') meta.push('Med alkohol');
+      if (r.type === 'noalcohol') meta.push('Alkoholfri');
+      if (r.flavors && r.flavors.length) meta.push('Smak: ' + r.flavors.join(', '));
+      document.getElementById('rMeta').textContent = meta.join(' • ');
+
+      const ulI = document.getElementById('rIngredients');
+      ulI.innerHTML = '';
+      (r.ingredients||[]).forEach(ing => {
+        const li = document.createElement('li');
+        const amt = formatAmount(ing, s);
+        li.textContent = (amt ? (amt + ' ') : '') + (ing.name || '');
+        ulI.appendChild(li);
+      });
+
+      const ulS = document.getElementById('rSteps');
+      ulS.innerHTML = '';
+      (r.steps||[]).forEach(step => {
+        const li = document.createElement('li');
+        li.textContent = step;
+        ulS.appendChild(li);
+      });
+
+      const details = [];
+      if (r.glass) details.push('Glas: ' + r.glass);
+      if (r.ice) details.push('Is: ' + r.ice);
+      if (r.garnish) details.push('Garnityr: ' + r.garnish);
+      document.getElementById('rDetails').textContent = details.join(' • ');
+
+      document.getElementById('rTips').textContent = r.tips ? ('Tips: ' + r.tips) : '';
+    }
+
+    document.getElementById('type').addEventListener('change', applyFilters);
+    document.getElementById('randomBtn').addEventListener('click', pickRandom);
+    document.getElementById('servings').addEventListener('input', (e)=>{
+      e.target.value = e.target.value.replace(/[^0-9]/g, '');
+    });
+
+    loadRecipes().then(()=>{
+      applyFilters();
+      if (state.filtered.length) renderRecipe(state.filtered[0]);
+    });
+  </script>
+</body>
+</html>
